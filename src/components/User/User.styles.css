@@ -1,0 +1,37 @@
+.userBack{
+    position: absolute;
+    background-color: #1b262c;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.user{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    
+}
+.userBox{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #ebebeb;
+    border-radius: 15px;
+    width: 400px;
+}
+
+.userBox input{
+    background-color: transparent;
+    border: 0;
+    height: 30px;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 30px;
+}@media (max-width: 420px){
+    .userBox{
+        padding: 20px;
+        width: 300px;
+    }
+}

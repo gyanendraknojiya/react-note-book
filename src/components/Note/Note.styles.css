@@ -1,0 +1,29 @@
+.NoteToDisplay {
+  width: auto;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+
+.NoteTitle {
+  font-family: "Noto Sans JP", sans-serif;
+  height: 35px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.NoteContent {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  width: auto;
+  height: 100px;
+  overflow-y: auto;
+}
+

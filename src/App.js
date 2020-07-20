@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { connect } from "react-redux";
+import {createStructuredSelector} from 'reselect'
 
-function App() {
+
+import { setCurrentUser } from "./Redux/User/user.action";
+import User from "./components/User/User.component";
+import Notes from './components/Notes/Notes.component'
+import { UserSelector} from './Redux/User/User.selector'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import "./App.css";
+
+function App({setCurrentUser, currentUser}) {
+
+const onsubmitUserName =(e)=>{
+  e.preventDefault();
+  const name = e.target[0].value
+  setCurrentUser(name)
+}
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!currentUser?<User onsubmit={onsubmitUserName} />: null}
+      {currentUser?<Notes />: null}
     </div>
   );
 }
 
-export default App;
+const mapDispatchToProps = (dispatch) => ({
+  setCurrentUser: (user) => dispatch(setCurrentUser(user)),
+});
+
+const mapStatetoProps = createStructuredSelector({
+  currentUser: UserSelector,
+});
+
+
+export default connect(mapStatetoProps, mapDispatchToProps)(App);

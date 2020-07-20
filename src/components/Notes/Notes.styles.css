@@ -1,0 +1,49 @@
+.notes{
+    position: absolute;
+    width: 100vw;
+}
+.inner{
+    position: relative;
+    margin-bottom: 120px;
+    overflow-x: hidden;
+}
+.header{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin: auto;
+    height: 50px;
+
+}
+.header .User-Name{
+    width: 60%;
+    display: inline-block;
+    margin: 15px;
+    overflow: hidden;
+}
+
+footer{
+    font-family: 'Source Serif Pro', serif;
+    background-color: black;
+    width: 100%;
+    padding-top: 30px;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+footer span{
+    color: red;
+}
+
+footer a, footer a:hover {
+    
+    text-decoration: none;
+    color: beige;
+    font-weight: 500;
+}
