@@ -1,7 +1,7 @@
 {
   "name": "iarani-notes",
   "version": "0.1.0",
-  "homepage": "http://gyanendraknojiya.github.io/react-note-book",
+  "homepage": "https://gyanendraknojiya.github.io/react-note-book",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
