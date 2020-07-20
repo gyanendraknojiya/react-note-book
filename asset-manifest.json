@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-note-book/static/css/main.1cc49a33.chunk.css",
+    "main.js": "/react-note-book/static/js/main.ea9d8ba9.chunk.js",
+    "main.js.map": "/react-note-book/static/js/main.ea9d8ba9.chunk.js.map",
+    "runtime-main.js": "/react-note-book/static/js/runtime-main.0ee6cea6.js",
+    "runtime-main.js.map": "/react-note-book/static/js/runtime-main.0ee6cea6.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/react-note-book/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.72409660.chunk.js": "/react-note-book/static/js/2.72409660.chunk.js",
+    "static/js/2.72409660.chunk.js.map": "/react-note-book/static/js/2.72409660.chunk.js.map",
+    "index.html": "/react-note-book/index.html",
+    "precache-manifest.7a7b596990728bbbd5b8da5b499c37fe.js": "/react-note-book/precache-manifest.7a7b596990728bbbd5b8da5b499c37fe.js",
+    "service-worker.js": "/react-note-book/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/react-note-book/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.1cc49a33.chunk.css.map": "/react-note-book/static/css/main.1cc49a33.chunk.css.map",
+    "static/js/2.72409660.chunk.js.LICENSE.txt": "/react-note-book/static/js/2.72409660.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ee6cea6.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.72409660.chunk.js",
+    "static/css/main.1cc49a33.chunk.css",
+    "static/js/main.ea9d8ba9.chunk.js"
+  ]
+}
