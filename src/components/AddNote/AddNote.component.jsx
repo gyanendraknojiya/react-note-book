@@ -1,9 +1,12 @@
 import React, {useState} from "react";
+import Calendar from 'react-calendar';
 
+import 'react-calendar/dist/Calendar.css';
 import "./AddNote.styles.css";
 
 const AddNote = (props) => {
 const [show, setShow] = useState("none")
+
 
 const showFullForm= ()=>{
   setShow("block")
@@ -34,6 +37,14 @@ const HideForm=()=>{
           style={{display: `${show}`}}
           required
         />
+        <div style={{display: `${show}`}}>
+        <Calendar
+         
+          onChange={props.onchange}
+          value={props.date}
+          className="my-3"
+        />
+      </div>
         <button className="btn btn-outline-success mt-3 mx-auto"  style={{display: `${show}`}} onClick={HideForm}>ADD</button>
       </form>
     </div>

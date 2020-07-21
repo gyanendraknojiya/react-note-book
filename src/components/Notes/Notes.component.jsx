@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 import uniqid from "uniqid";
@@ -23,12 +23,17 @@ const Notes = ({
   NoteToBeDelete,
   RemoveCurrentUser,
 }) => {
+const [date, setDate] = useState(new Date());
+
+
+
   const takeNote = (e) => {
     e.preventDefault();
     const NoteToSave = {
       id: uniqid(),
       title: e.target[0].value,
       content: e.target[1].value,
+      date: date.toDateString()
     };
     setAllNotes(NoteToSave);
     e.target[0].value = "";
@@ -40,39 +45,40 @@ const Notes = ({
     NoteToBeDelete(noteID);
   };
   return (
-<div>
-<div className="notes">
-<div className='inner' >
-      {currentUser ? (
-        <div className="header">
-          <span className="User-Name">Hello! {currentUser}</span>{" "}
-          <span
-            className=" btn btn-danger btn-sm float-right m-2 mr-3"
-            onClick={RemoveCurrentUser}
-          >
-            LogOut
+    <div>
+      <div className="notes">
+        <div className='inner' >
+          {currentUser ? (
+            <div className="header">
+              <span className="User-Name">Hello! {currentUser}</span>{" "}
+              <span
+                className=" btn btn-danger btn-sm float-right m-2 mr-3"
+                onClick={RemoveCurrentUser}
+              >
+                LogOut
           </span>
+            </div>
+          ) : null}
+          <AddNote onsubmit={takeNote} onchange={setDate} date={date} />
+          <div className="row text-center">
+            {allNotes.length > 0
+              ? allNotes.reverse().map((item) => (
+                <NoteToDisplay
+                  key={item.id}
+                  title={item.title}
+                  content={item.content}
+                  id={item.id}
+                  date={item.date}
+                  onclick={removeNote}
+                />
+              ))
+              : null}
+          </div>
+
         </div>
-      ) : null}
-      <AddNote onsubmit={takeNote} />
-      <div className="row text-center">
-        {allNotes.length > 0
-          ? allNotes.reverse().map((item) => (
-              <NoteToDisplay
-                key={item.id}
-                title={item.title}
-                content={item.content}
-                id={item.id}
-                onclick={removeNote}
-              />
-            ))
-          : null}
       </div>
-    
-    </div>
-</div>
-    <footer>
-        &#9400; Copyright: 2020: All Rights Reserved <br /> Made with <span>&#10084; </span> 
+      <footer>
+        &#9400; Copyright: 2020: All Rights Reserved <br /> Made with <span>&#10084; </span>
         By{" "}
         <a
           href="https://gyanendra.tech"
@@ -82,7 +88,7 @@ const Notes = ({
           Gyanendra
         </a>
       </footer>
-</div>
+    </div>
   );
 };
 
