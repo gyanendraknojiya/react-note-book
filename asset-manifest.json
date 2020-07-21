@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-note-book/static/css/main.1cc49a33.chunk.css",
-    "main.js": "/react-note-book/static/js/main.04e4ac37.chunk.js",
-    "main.js.map": "/react-note-book/static/js/main.04e4ac37.chunk.js.map",
+    "main.css": "/react-note-book/static/css/main.f385ab6f.chunk.css",
+    "main.js": "/react-note-book/static/js/main.aba2b2db.chunk.js",
+    "main.js.map": "/react-note-book/static/js/main.aba2b2db.chunk.js.map",
     "runtime-main.js": "/react-note-book/static/js/runtime-main.0ee6cea6.js",
     "runtime-main.js.map": "/react-note-book/static/js/runtime-main.0ee6cea6.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/react-note-book/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.72409660.chunk.js": "/react-note-book/static/js/2.72409660.chunk.js",
-    "static/js/2.72409660.chunk.js.map": "/react-note-book/static/js/2.72409660.chunk.js.map",
+    "static/css/2.5036aa7d.chunk.css": "/react-note-book/static/css/2.5036aa7d.chunk.css",
+    "static/js/2.1ac7cc3a.chunk.js": "/react-note-book/static/js/2.1ac7cc3a.chunk.js",
+    "static/js/2.1ac7cc3a.chunk.js.map": "/react-note-book/static/js/2.1ac7cc3a.chunk.js.map",
     "index.html": "/react-note-book/index.html",
-    "precache-manifest.31fa7847d055fa7e6fe6ab9973ee1256.js": "/react-note-book/precache-manifest.31fa7847d055fa7e6fe6ab9973ee1256.js",
+    "precache-manifest.76636eb0699c0192e386539b0d234b5f.js": "/react-note-book/precache-manifest.76636eb0699c0192e386539b0d234b5f.js",
     "service-worker.js": "/react-note-book/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/react-note-book/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.1cc49a33.chunk.css.map": "/react-note-book/static/css/main.1cc49a33.chunk.css.map",
-    "static/js/2.72409660.chunk.js.LICENSE.txt": "/react-note-book/static/js/2.72409660.chunk.js.LICENSE.txt"
+    "static/css/2.5036aa7d.chunk.css.map": "/react-note-book/static/css/2.5036aa7d.chunk.css.map",
+    "static/css/main.f385ab6f.chunk.css.map": "/react-note-book/static/css/main.f385ab6f.chunk.css.map",
+    "static/js/2.1ac7cc3a.chunk.js.LICENSE.txt": "/react-note-book/static/js/2.1ac7cc3a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0ee6cea6.js",
-    "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.72409660.chunk.js",
-    "static/css/main.1cc49a33.chunk.css",
-    "static/js/main.04e4ac37.chunk.js"
+    "static/css/2.5036aa7d.chunk.css",
+    "static/js/2.1ac7cc3a.chunk.js",
+    "static/css/main.f385ab6f.chunk.css",
+    "static/js/main.aba2b2db.chunk.js"
   ]
 }
