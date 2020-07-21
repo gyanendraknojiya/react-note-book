@@ -37,7 +37,7 @@ const HideForm=()=>{
           style={{display: `${show}`}}
           required
         />
-        <div style={{display: `${show}`}}>
+        <div style={{display: `${show}`}} className="Calendar">
         <Calendar
          
           onChange={props.onchange}

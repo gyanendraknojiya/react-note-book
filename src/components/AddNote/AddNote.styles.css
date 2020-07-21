@@ -13,7 +13,7 @@ font-weight: 700;
 }
 
 
-.addForm textarea, .addForm button, .addForm Calendar{
+.addForm textarea, .addForm button, .addForm .Calendar{
     animation: showElement 1s forwards;
 }
 
