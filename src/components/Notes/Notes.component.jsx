@@ -47,7 +47,7 @@ const Notes = ({
         <div className="header">
           <span className="User-Name">Hello! {currentUser}</span>{" "}
           <span
-            className=" btn btn-danger btn-sm float-right m-2"
+            className=" btn btn-danger btn-sm float-right m-2 mr-3"
             onClick={RemoveCurrentUser}
           >
             LogOut
@@ -57,7 +57,7 @@ const Notes = ({
       <AddNote onsubmit={takeNote} />
       <div className="row text-center">
         {allNotes.length > 0
-          ? allNotes.map((item) => (
+          ? allNotes.reverse().map((item) => (
               <NoteToDisplay
                 key={item.id}
                 title={item.title}
