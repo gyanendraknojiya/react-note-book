@@ -9,7 +9,7 @@ const User = (props) => {
           <h2>Enter Your Name</h2>
           <form className="form-group" onSubmit={props.onsubmit}>
             <input className="form-control" type="text" name="name" />
-            <button className="btn btn-outline-primary mt-5" type="submit">
+            <button className="btn btn-outline-light mt-5" type="submit">
               Submit
             </button>
           </form>
