@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-note-book/static/css/main.f385ab6f.chunk.css",
-    "main.js": "/react-note-book/static/js/main.aba2b2db.chunk.js",
-    "main.js.map": "/react-note-book/static/js/main.aba2b2db.chunk.js.map",
+    "main.css": "/react-note-book/static/css/main.28816080.chunk.css",
+    "main.js": "/react-note-book/static/js/main.dff40265.chunk.js",
+    "main.js.map": "/react-note-book/static/js/main.dff40265.chunk.js.map",
     "runtime-main.js": "/react-note-book/static/js/runtime-main.0ee6cea6.js",
     "runtime-main.js.map": "/react-note-book/static/js/runtime-main.0ee6cea6.js.map",
     "static/css/2.5036aa7d.chunk.css": "/react-note-book/static/css/2.5036aa7d.chunk.css",
     "static/js/2.1ac7cc3a.chunk.js": "/react-note-book/static/js/2.1ac7cc3a.chunk.js",
     "static/js/2.1ac7cc3a.chunk.js.map": "/react-note-book/static/js/2.1ac7cc3a.chunk.js.map",
     "index.html": "/react-note-book/index.html",
-    "precache-manifest.76636eb0699c0192e386539b0d234b5f.js": "/react-note-book/precache-manifest.76636eb0699c0192e386539b0d234b5f.js",
+    "precache-manifest.b44e40ab4d91682c0c279d7e09ff7b29.js": "/react-note-book/precache-manifest.b44e40ab4d91682c0c279d7e09ff7b29.js",
     "service-worker.js": "/react-note-book/service-worker.js",
     "static/css/2.5036aa7d.chunk.css.map": "/react-note-book/static/css/2.5036aa7d.chunk.css.map",
-    "static/css/main.f385ab6f.chunk.css.map": "/react-note-book/static/css/main.f385ab6f.chunk.css.map",
+    "static/css/main.28816080.chunk.css.map": "/react-note-book/static/css/main.28816080.chunk.css.map",
     "static/js/2.1ac7cc3a.chunk.js.LICENSE.txt": "/react-note-book/static/js/2.1ac7cc3a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0ee6cea6.js",
     "static/css/2.5036aa7d.chunk.css",
     "static/js/2.1ac7cc3a.chunk.js",
-    "static/css/main.f385ab6f.chunk.css",
-    "static/js/main.aba2b2db.chunk.js"
+    "static/css/main.28816080.chunk.css",
+    "static/js/main.dff40265.chunk.js"
   ]
 }
